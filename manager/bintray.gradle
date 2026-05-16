@@ -1,4 +1,4 @@
-apply plugin: 'com.novoda.bintray-release'
+// apply plugin: 'com.novoda.bintray-release'
 
 allprojects {
     repositories {
@@ -15,13 +15,13 @@ allprojects {
 }
 
 
-def siteUrl = 'https://github.com/JessYanCoding/RetrofitUrlManager'   // 项目的主页
+// def siteUrl = 'https://github.com/JessYanCoding/RetrofitUrlManager'   // 项目的主页
 
-publish {
-    userOrg = 'jessyancoding'      //bintray注册的用户名
-    groupId = 'me.jessyan'         //compile引用时的第1部分groupId
-    artifactId = 'retrofit-url-manager'     //compile引用时的第2部分项目名
-    publishVersion = rootProject.versionName    //compile引用时的第3部分版本号
-    desc = 'Let Retrofit support multiple baseUrl and can be change the baseUrl at runtime.'
-    website = siteUrl
-}
+// publish {
+//     userOrg = 'jessyancoding'      //bintray注册的用户名
+//     groupId = 'me.jessyan'         //compile引用时的第1部分groupId
+//     artifactId = 'retrofit-url-manager'     //compile引用时的第2部分项目名
+//     publishVersion = rootProject.versionName    //compile引用时的第3部分版本号
+//     desc = 'Let Retrofit support multiple baseUrl and can be change the baseUrl at runtime.'
+//     website = siteUrl
+// }
