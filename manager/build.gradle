@@ -28,4 +28,4 @@ dependencies {
     compileOnly 'com.squareup.okhttp3:okhttp:3.10.0'
 }
 
-apply from: 'bintray.gradle'
+// apply from: 'bintray.gradle'
